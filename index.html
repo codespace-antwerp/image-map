@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image map</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    img {
+      width: 100%;
+      padding: 3rem;
+    }
+  </style>
+  <body>
+    <img src="Screenshot 2023-01-15 at 18.17.54.png" usemap="#image_map" />
+    <map name="image_map">
+      <area
+        alt="brook's details"
+        title="brook's details"
+        href="https://onepiece.fandom.com/wiki/Brook/Gallery"
+        coords="1977,1083 1934,1045 1915,993 1929,955 2033,908 2346,889 2407,936 2492,951 2544,1036 2521,1126 2478,1121 2530,1192 2530,1267 2497,1362 2355,1367 2038,1386 1825,1253 1821,1182 1873,1121 1981,1088 "
+        shape="polygon"
+      />
+      <area
+        alt="Who is Brook"
+        title="Who is Brook"
+        href="https://onepiece.fandom.com/wiki/Brook"
+        coords="260,397,407"
+        shape="circle"
+      />
+    </map>
+    <script src="mageMapResizer.min.js "></script>
+    <script>
+      imageMapResize();
+    </script>
+  </body>
+</html>
